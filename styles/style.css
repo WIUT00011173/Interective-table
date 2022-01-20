@@ -59,6 +59,7 @@ body table thead tr {
 }
 
 body table tr, body table th, body table td {
+  color: white;
   font-size: 20px;
   text-align: center;
   text-transform: capitalize;
