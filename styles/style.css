@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+}
+
+body .students {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .students h1 {
+  font-family: sans-serif;
+  padding: 10px 20px;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body table {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+body table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+body table tr, body table th, body table td {
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border: 1px solid rebeccapurple;
+}
+/*# sourceMappingURL=style.css.map */
