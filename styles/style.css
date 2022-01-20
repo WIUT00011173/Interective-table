@@ -36,6 +36,7 @@ body .students {
 }
 
 body .students h1 {
+  color: white;
   font-family: sans-serif;
   padding: 10px 20px;
   border: 1px solid wheat;
